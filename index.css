@@ -1,0 +1,23 @@
+.main{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  gap: 15%;
+}
+.logo{
+  width: 90%;
+}
+.logo .logo__img{
+  width: 100%;
+}
+.btn{
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 50px;
+  background: var(--yellow-color);
+  border: none;
+  border-radius: 30px;
+}

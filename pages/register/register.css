@@ -1,0 +1,87 @@
+.main{
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+
+  color: white;
+}
+
+.container{
+  height: 70%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10%;
+}
+.container__info{
+  text-align: center;
+}
+.container__info h4{
+  color: var(--yellow-color);
+}
+
+/* end of container info */
+
+/* beginning of form */
+.form{
+  width: 80%; 
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 30px; 
+}
+
+.form .container__input{ 
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form .container__input input{
+  width: 100%;
+  
+  font-size: 1rem;
+  
+  padding: 15px 10px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.form .container__btn{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.form .container__btn .btn__submit{ 
+  background-color: var(--yellow-color);
+  width: 100%;
+  padding: 10px;
+  font-weight: 700;
+
+  border-radius: 20px;
+}
+.form .container__btn .container__registered-link{
+  margin: 10px 0 0 0;
+
+  font-size: .7rem;
+}
+.form .container__btn .container__registered-link a{
+  color: var(--yellow-color);
+}
+.form .container__btn .container__registered-link a:hover{
+  text-decoration: underline;
+}

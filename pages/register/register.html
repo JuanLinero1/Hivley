@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hivley</title>
+
+  <link rel="stylesheet" href="../../global.css">
+  <link rel="stylesheet" href="register.css">
+</head>
+<body class="root">
+  <main class="main">
+    <div class="container">
+      <div class="container__info">
+        <h3>Welcome to the Hive!</h3>
+        <h4>Let’s get you started.</h4>
+      </div>
+      <form class="form" action="/">
+        <div class="container__input">
+          <input class="inputName" type="text"      placeholder="Enter your name"     maxlength="10" required>
+          <input class="inputEmail" type="email"    placeholder="Enter your email"    required>
+          <input class="inputPass" type="password"  placeholder="Enter your password" required>
+        </div>
+        <div class="container__btn">
+          <button class="btn__submit" type="submit">Register</button>
+          <p class="container__registered-link">Already have an account? <a>Sign In</a></p>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="register.js"></script>
+</body>
+</html>
